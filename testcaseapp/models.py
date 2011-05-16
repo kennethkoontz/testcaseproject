@@ -4,7 +4,7 @@ class TestSuite(models.Model):
     title = models.CharField(max_length=50)
     description = models.CharField(max_length=100)
 
-class MileStone(models.Model):
+class Milestone(models.Model):
     title = models.CharField(max_length=20)
     end_date = models.DateField()
     description = models.CharField(max_length=100)
