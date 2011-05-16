@@ -7,7 +7,7 @@ class TestSuite(models.Model):
 class MileStone(models.Model):
     title = models.CharField(max_length=20)
     end_date = models.DateField()
-    description = model.CharField(max_length=100)
+    description = models.CharField(max_length=100)
 
     def __unicode__(self):
         return self.title
